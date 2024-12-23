@@ -157,192 +157,24 @@
                <children>
                   <Pane fx:id="allProduct1" layoutX="28.0" layoutY="24.0" prefHeight="186.0" prefWidth="161.0" style="-fx-background-color: #ffffff;">
                      <children>
-                        <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                        <Text fx:id="productName1" layoutX="10.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Closed Neck Sweater">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Text>
+                        <Text fx:id="productPrice1" layoutX="10.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200.00 php">
+                           <font>
+                              <Font name="Arial" size="11.0" />
+                           </font>
+                        </Text>
+                        <ImageView fx:id="addToCart" fitHeight="16.0" fitWidth="16.0" layoutX="131.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Downloads/shopping-cart%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="129.0" fitWidth="136.0" layoutX="13.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../Downloads/allProduct1.jpg" />
-                           </image>
-                        </ImageView>
-                        <Text layoutX="10.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Closed Neck Sweater">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <Text layoutX="10.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200.00 php">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="131.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/shopping-cart%20(1).png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </Pane>
-                  <Pane fx:id="allProduct2" layoutX="210.0" layoutY="24.0" prefHeight="186.0" prefWidth="161.0" style="-fx-background-color: #ffffff;">
-                     <children>
-                        <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/allProduct2.jpg" />
-                           </image>
-                        </ImageView>
-                        <Text layoutX="10.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue Blouse">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <Text layoutX="10.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="150.00 php">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="131.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/shopping-cart%20(1).png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </Pane>
-                  <Pane fx:id="allProduct3" layoutX="391.0" layoutY="24.0" prefHeight="186.0" prefWidth="161.0" style="-fx-background-color: #ffffff;">
-                     <children>
-                        <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/allProduct3.jpg" />
-                           </image>
-                        </ImageView>
-                        <Text layoutX="10.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Brown Hat">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <Text layoutX="10.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50.00 php">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="131.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/shopping-cart%20(1).png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </Pane>
-                  <Pane fx:id="allProduct4" layoutX="578.0" layoutY="24.0" prefHeight="186.0" prefWidth="161.0" style="-fx-background-color: #ffffff;">
-                     <children>
-                        <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/allProduct4.jpg" />
-                           </image>
-                        </ImageView>
-                        <Text layoutX="10.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Brown Bag">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <Text layoutX="10.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="150.00 php">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="131.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/shopping-cart%20(1).png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </Pane>
-                  <Pane fx:id="allProduct5" layoutX="28.0" layoutY="227.0" prefHeight="186.0" prefWidth="161.0" style="-fx-background-color: #ffffff;">
-                     <children>
-                        <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="33.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/allProduct5.jpg" />
-                           </image>
-                        </ImageView>
-                        <Text layoutX="10.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maong Shorts">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <Text layoutX="10.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100.00 php">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="131.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/shopping-cart%20(1).png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </Pane>
-                  <Pane fx:id="allProduct6" layoutX="210.0" layoutY="227.0" prefHeight="186.0" prefWidth="161.0" style="-fx-background-color: #ffffff;">
-                     <children>
-                        <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="28.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/allProduct6.jpg" />
-                           </image>
-                        </ImageView>
-                        <Text layoutX="10.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue Bag">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <Text layoutX="10.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="150.00 php">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="131.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/shopping-cart%20(1).png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </Pane>
-                  <Pane fx:id="allProduct7" layoutX="391.0" layoutY="227.0" prefHeight="186.0" prefWidth="161.0" style="-fx-background-color: #ffffff;">
-                     <children>
-                        <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/allProduct7.jpg" />
-                           </image>
-                        </ImageView>
-                        <Text layoutX="10.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Red Jacket">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <Text layoutX="10.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200.00 php">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="131.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/shopping-cart%20(1).png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </Pane>
-                  <Pane fx:id="allProduct8" layoutX="578.0" layoutY="227.0" prefHeight="186.0" prefWidth="161.0" style="-fx-background-color: #ffffff;">
-                     <children>
-                        <ImageView fitHeight="132.0" fitWidth="143.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/allProduct8.jpg" />
-                           </image>
-                        </ImageView>
-                        <Text layoutX="10.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Colorful Scarf">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <Text layoutX="10.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50.00 php">
-                           <font>
-                              <Font name="Arial" size="11.0" />
-                           </font>
-                        </Text>
-                        <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="131.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../Downloads/shopping-cart%20(1).png" />
                            </image>
                         </ImageView>
                      </children>
